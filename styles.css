@@ -39,14 +39,81 @@ li {
 .hero {
     margin: 70px auto 70px auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .hero>div {
     padding: 5px 0 5px 0;
-    width: 50%;
+    width: 40%;
 }
 .hero img{
-    width: 80%;
-    height: auto;
-    align-items: end;
+    width: 100%;;
+    height: 220px;
+}
+.hero button{
+    background-color: #3882f6;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    color:#e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+.hero p{
+    padding: 12px 0;
+}
+
+.second{
+    padding: 30px 100px;
+}
+
+.second h1 {
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.carroussel {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 0;
+}
+
+.carItem{
+    width: 100px;
+    color: #1f2937;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.box{
+    width: 130px;
+    height: 130px;
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+}
+
+.lightBG{
+    background-color: #e5e7eb;
+    padding: 100px 320px;
+}
+.quote{
+    color: #1f2937;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.author{
+    color: #1f2937;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bolder;
 }
