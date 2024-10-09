@@ -35,3 +35,18 @@ li {
     font-weight: extra-bold;
     color: #f9faf8;
 }
+
+.hero {
+    margin: 70px auto 70px auto;
+    display: flex;
+}
+
+.hero>div {
+    padding: 5px 0 5px 0;
+    width: 50%;
+}
+.hero img{
+    width: 80%;
+    height: auto;
+    align-items: end;
+}
